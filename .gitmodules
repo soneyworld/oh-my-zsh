@@ -1,0 +1,3 @@
+[submodule "plugins/nova"]
+	path = plugins/nova
+	url = https://github.com/soneyworld/oh-my-zsh-nova.git
