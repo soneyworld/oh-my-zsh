@@ -2,7 +2,7 @@
 alias g='git'
 compdef g=git
 alias gst='git status -sb'
-compdef _git gst=git-status
+compdef _git gst=git-status -sb
 alias gd='git diff'
 compdef _git gd=git-diff
 alias gdc='git diff --cached'
@@ -82,6 +82,8 @@ alias grh='git reset HEAD'
 alias grhh='git reset HEAD --hard'
 alias gclean='git reset --hard && git clean -dfx'
 alias gwc='git whatchanged -p --abbrev-commit --pretty=medium'
+
+alias gsu='git submodule update'
 
 # Sign and verify commits with GPG
 alias gcs='git commit -S'
